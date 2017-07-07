@@ -1,0 +1,55 @@
+.dropdown-menu {
+  display: block;
+}
+
+.dropdown-toggle {
+  display: none;
+}
+
+.is-logged .dropdown-menu {
+  display: none;
+}
+
+.is-logged .dropdown.open > .dropdown-menu {
+  display: block;
+  right: 0;
+}
+
+.is-logged .dropdown-toggle {
+  display: block;
+}
+
+.align-right {
+  position: fixed;
+  right: 0;
+  margin-right: 5px;
+}
+
+#signup-link {
+    display: none !important;
+}
+
+#login-dropdown-list {
+  list-style: none;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 21px;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+#login-buttons-open-change-password,
+#signup-link {
+  display: none !important;
+}
+
+.user-logged #login-buttons-open-change-password {
+  display: inline-block !important;
+}
+
+#login-dropdown-list .dropdown-menu {
+    left: inherit !important;
+}

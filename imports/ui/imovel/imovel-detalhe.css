@@ -1,0 +1,11 @@
+.img-preview {
+  width: 100%;
+}
+
+.foto-detalhe {
+  width: 100%;
+}
+
+.slick-initialized.slick-slider {
+  padding-bottom: 10px;
+}

@@ -1,0 +1,10 @@
+.nav-custom {
+    color: #fff;
+    border-width: 0 0 10px 0;
+    background-color: #333;
+}
+
+.nav-custom .nav-custom-item {
+    display: flex;
+    justify-content: flex-end;
+}

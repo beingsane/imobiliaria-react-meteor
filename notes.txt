@@ -1,0 +1,4 @@
+
+//SET DEPLOY_HOSTNAME=galaxy.meteor.com
+
+//meteor deploy http://enocinvest.meteorapp.com --settings settings.json
